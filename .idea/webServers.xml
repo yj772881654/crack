@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="77275932-c566-4b0b-b81d-a1b424ce872c" name="4055">
+        <fileTransfer rootFolder="/home/nlg/yj/mxy/code/crack" accessType="SFTP" host="192.168.3.4" port="22" sshConfigId="a5f94346-43a7-4f2d-98d4-25794441eab4" sshConfig="nlg@192.168.3.4:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c972720b-37b0-41ae-babf-70fd80fa6b3b" name="dl4055">
+        <fileTransfer rootFolder="/home/nlg/yj/crack" accessType="SFTP" host="192.168.3.2" port="22" sshConfigId="bc9fb3ff-b4ed-41c2-93b1-df202caa7cbc" sshConfig="nlg@192.168.3.2:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
